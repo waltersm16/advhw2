@@ -435,21 +435,10 @@ library(testthat)</code></pre>
 </div>
 <div id="exercise-2-add-documentation" class="section level1">
 <h1>Exercise 2: Add documentation</h1>
-<p>Document the arguments and output of plot_cp. To do that, add a
-helpfile (.Rd file in subfolder man) using the approach from the class
-material “documenting an r package”:</p>
-<ul>
-<li>add roxygen skeleton to the plot_cp function, fill in the
-details</li>
-<li>use the function document to generate the Rd file</li>
-</ul>
-<p>In order to show the help file in the knitted Rmd, install the
-package Rd2md and use this code block:</p>
-<pre class="r"><code>library(Rd2md)
-Rd2markdown(rdfile = &quot;man/plot_cp.Rd&quot;, outfile = &quot;plot_cp.md&quot;)</code></pre>
-<pre><code>## Warning in Rd2markdown(rdfile = &quot;man/plot_cp.Rd&quot;, outfile = &quot;plot_cp.md&quot;): &#39;Rd2markdown&#39; is deprecated.
-## Use &#39;as_markdown&#39; instead.
-## See help(&quot;Deprecated&quot;) and help(&quot;Rd2md-deprecated&quot;).</code></pre>
+<p>Added roxygen skeleton to the plot_cp function and filled in the
+details; used the function document to generate the Rd file; and
+installed Rd2md to create plot_cp.md</p>
+<p>Text below from plot_cp.md</p>
 </div>
 <div id="plot-mcpr-data-and-estimates" class="section level1">
 <h1>Plot mCPR data and estimates</h1>

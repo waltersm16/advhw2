@@ -33,17 +33,10 @@ plot_cp(dat, est, iso_code = 404, CI = 80)
 
 # Exercise 2: Add documentation 
 
-Document the arguments and output of plot_cp. To do that, add a helpfile (.Rd file in subfolder man) using the approach from the class material "documenting an r package":
+Added roxygen skeleton to the plot_cp function and filled in the details; used the function document to generate the Rd file; and installed Rd2md to create plot_cp.md
 
-- add roxygen skeleton to the plot_cp function, fill in the details
-- use the function document to generate the Rd file
+Text below from plot_cp.md
 
-In order to show the help file in the knitted Rmd, install the package Rd2md and use this code block:
-
-```{r}
-library(Rd2md)
-Rd2markdown(rdfile = "man/plot_cp.Rd", outfile = "plot_cp.md")
-```
 # Plot mCPR data and estimates
 
 ## Description
